@@ -4,7 +4,8 @@ from typing import Annotated, Optional
 import orjson
 from fastapi import Cookie, FastAPI, Form, Request, UploadFile
 from fastapi.staticfiles import StaticFiles
-from gizmo_agent import agent, ingest_runnable
+from gizmo_agent import agent
+from gizmo_agent.ingest import ingest_runnable
 from langchain.schema.runnable import RunnableConfig
 from langserve import add_routes
 from typing_extensions import TypedDict

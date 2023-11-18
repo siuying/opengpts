@@ -1,6 +1,6 @@
 config = {
   "history": {
-    "url": "file://::memory::",
+    "url": "sqlite:///::memory::",
   },
 
   "chroma": {
